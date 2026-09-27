@@ -4,7 +4,7 @@ def greet(name, age):
 
 def main():
     name = input("请输入你的名字：")
-    age = input("请输入你的年龄：")
+    age = int(input("请输入你的年龄："))
     print(greet(name, age))
 
 
